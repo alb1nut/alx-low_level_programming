@@ -34,7 +34,7 @@ putchar(b + '0');
 putchar(c + '0');
 }
 ++c;
-}								
+}
 ++b;
 c = 0;
 }
