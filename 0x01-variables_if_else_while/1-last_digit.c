@@ -5,7 +5,6 @@
 #include <time.h>
 
 /**
- *
  * * main - principal function
  *
  * *
