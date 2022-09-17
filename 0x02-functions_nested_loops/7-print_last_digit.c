@@ -7,10 +7,7 @@
  *
  *    * @n: parameter
  *
- *     *
- *
  *  Return: return the last digit
- *
  */
 
 int print_last_digit(int n)
