@@ -9,7 +9,7 @@
  *
  *     *
  *
- *      * Return: return the last digit
+ *  Return: return the last digit
  *
  */
 
