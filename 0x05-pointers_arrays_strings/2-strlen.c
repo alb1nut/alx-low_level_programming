@@ -6,9 +6,7 @@
  *
  *    * @s: pointer of parameter
  *
- *     *
- *
- *      * Return: return n's value
+  * Return: return n's value
  *
  */
 int _strlen(char *s)
