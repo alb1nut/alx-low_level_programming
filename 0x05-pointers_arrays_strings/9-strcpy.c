@@ -2,17 +2,12 @@
 /**
  *  * *_strcpy - function
  *
- *   *
- *
- *    * @dest: pointer of parameter
+     * @dest: pointer of parameter
  *
  *     * @src: pointer of parameter
  *
- *      *
- *
  *       * Return: return dest value
- *
- */
+  */
 
 char *_strcpy(char *dest, char *src)
 {
@@ -22,7 +17,7 @@ while (dest[i] != '\0')
 dest[i++] = '\0';
 i = 0;
 while (src[srcLength] != '\0')
-cLength++;
+srcLength++;
 for (i = 0; i < srcLength; i++)
 dest[i] = src[i];
 dest[srcLength] = '\0';
