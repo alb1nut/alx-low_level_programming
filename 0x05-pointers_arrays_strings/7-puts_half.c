@@ -1,24 +1,21 @@
-#include <stdio.h>
 #include "main.h"
 /**
- *  * print_array - function
+ *  * puts_half - function
  *
  *   *
  *
- *    * @a: pointer of parameter
- *
- *     * @n: parameter
+ *    * @str: pointer of parameter
  *
  */
-void print_array(int *a, int n)
+
+void puts_half(char *str)
 {
-int i = 0;
-if (n > 0)
-{
-while (i < n - 1)
-printf("%d, ", a[i++]);
-printf("%d\n", a[i]);
-}
-else
-printf("\n");
+int length = 0;
+int sublength;
+while (str[length] != '\0')
+length++;
+sublength = (length % 2 == 0) ? length / 2 : (length + 1) / 2;
+while (str[sublength] != '\0')
+_putchar(str[sublength++]);
+_putchar(10);
 }
