@@ -9,6 +9,7 @@
  *
  *     * Return: 0 on success, 1 on failure
  */
+
 int main(int argc, char *argv[])
 {
 int res1, res2;
