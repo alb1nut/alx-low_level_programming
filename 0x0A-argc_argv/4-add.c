@@ -4,13 +4,9 @@
 /**
  *  * isNumeric - checks if string  is numeric
  *
- *   *
- *
  *    * @s: string to check
  *
- *     *
- *
- *      * Return: true if is numeric, otherwise return false
+ * Return: true if is numeric, otherwise return false
  *
  */
 bool isNumeric(char *s)
@@ -25,16 +21,13 @@ return (false);
 }
 return (true);
 }
+
 /**
  *  * main - Entry Point
- *
- *   *
  *
  *    * @argc: arg counter
  *
  *     * @argv: arguments array
- *
- *      *
  *
  *       * Return: Always 0 (Success)
  *
